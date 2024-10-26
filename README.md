@@ -19,14 +19,13 @@ A web-based music player built using Django, allowing users to upload, manage, a
 - Python 3.x
 - Django
 - Django Rest Framework (if applicable)
-- Other dependencies specified in `requirements.txt`
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rudy128/music-player.git
    ```
 
 2. Navigate to the project directory:
@@ -38,19 +37,13 @@ A web-based music player built using Django, allowing users to upload, manage, a
 3. Install the required packages:
 
    ```bash
-   pip install -r requirements.txt
+   pip install Django 
    ```
 
 4. Set up the database:
 
    ```bash
    python manage.py migrate
-   ```
-
-5. Create a superuser (optional):
-
-   ```bash
-   python manage.py createsuperuser
    ```
 
 6. Run the development server:
